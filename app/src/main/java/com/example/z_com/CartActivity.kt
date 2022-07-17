@@ -3,7 +3,6 @@ package com.example.z_com
 import android.content.Intent
 import android.os.Bundle
 import android.widget.TextView
-import android.widget.Toast
 import androidx.appcompat.app.ActionBar
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -31,9 +30,13 @@ private val rvItem: RecyclerView
         actionBar?.hide()
 
         buttonPlaceYourOrder.setOnClickListener {
-            Toast.makeText(this@CartActivity, "Order Placed", Toast.LENGTH_LONG).show()
-//            var i: Intent = Intent(applicationContext, ItemsActivity::class.java)
-//            startActivity(i)
+//            Toast.makeText(this@CartActivity, "Order Placed", Toast.LENGTH_LONG).show()
+            ItemsActivity.itemsActivity?.finish()
+          var i: Intent = Intent(applicationContext, ItemsActivity::class.java)
+            startActivity(i)
+           // val intent = Intent()
+            //intent.putExtra("result", result)
+            //setResult(RESULT_OK, intent)
             finish()
         }
         initRecyclerView(productListModel)

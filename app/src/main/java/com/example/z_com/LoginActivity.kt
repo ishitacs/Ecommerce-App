@@ -52,6 +52,7 @@ class LoginActivity : AppCompatActivity() {
         skipLogin.setOnClickListener {
             val i = Intent(applicationContext, ItemsActivity::class.java)
             startActivity(i)
+            finish()
         }
 
     }

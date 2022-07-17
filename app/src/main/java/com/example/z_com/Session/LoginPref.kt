@@ -33,15 +33,15 @@ class LoginPref {
     }
     fun checkLogin(){
         if(!this.isLoggedIn()){
-            var i : Intent = Intent(context, LoginActivity::class.java)
+            val i  = Intent(context, LoginActivity::class.java)
             i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP)
-            i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+            i.flags = Intent.FLAG_ACTIVITY_NEW_TASK
             context.startActivity(i)
         }
     }
 
     fun getUserDetails() : HashMap<String,String>{
-        var user : Map<String,String> = HashMap<String,String>()
+        val user : Map<String,String> = HashMap<String,String>()
         (user as HashMap).put(KEY_USERNAME, preferences.getString(KEY_USERNAME,null)!!)
         (user as HashMap).put(KEY_PASSWORD, preferences.getString(KEY_PASSWORD,null)!!)
    return user

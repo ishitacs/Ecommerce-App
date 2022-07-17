@@ -1,5 +1,6 @@
 package com.example.z_com
 
+import android.app.Activity
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -35,6 +36,7 @@ class ItemsActivity : AppCompatActivity(), ItemAdapter.MenuListClickListener {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_items)
+        itemsActivity=this
         productList = getProductsData()
         productListModel = productList[0]!!
         session = LoginPref(this)
@@ -149,8 +151,8 @@ class ItemsActivity : AppCompatActivity(), ItemAdapter.MenuListClickListener {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
             R.id.nav_cart -> handleCartItem()
-            R.id.nav_login -> session?.LogoutUser()
-            R.id.nav_logout -> session?.LogoutUser()
+            R.id.nav_login -> moveToLogin()
+            R.id.nav_logout -> moveToLogin()
             R.id.nav_profile -> Toast.makeText(this, "Logged in as ${user?.get(LoginPref.KEY_USERNAME)}", Toast.LENGTH_LONG)
                 .show()
         }
@@ -175,5 +177,12 @@ class ItemsActivity : AppCompatActivity(), ItemAdapter.MenuListClickListener {
         this.finish()
     }
 
+    private fun moveToLogin(){
+        session?.LogoutUser()
+        finish()
+    }
+    companion object {
+        var itemsActivity: Activity? = null
+    }
 
 }
