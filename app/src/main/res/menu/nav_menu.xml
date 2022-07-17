@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/nav_cart"
+        android:icon="@drawable/ic_cart"
+        android:title="cart selected"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/ic_profile"
+        android:title="Log in"
+        android:iconTint="#4EDA03"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/nav_login"
+        android:icon="@drawable/ic_baseline_login_24"
+        android:title="Log in"
+        android:iconTint="#4EDA03"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/nav_log"
+        android:title="Username"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/nav_logout"
+        android:title="Log out "
+        app:showAsAction="never" />
+</menu>

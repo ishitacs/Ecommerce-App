@@ -1,0 +1,95 @@
+[
+  {
+    "name":"Starters",
+    "image":"https://www.spendwithpennies.com/wp-content/uploads/2013/10/Cheese-Sticks-SpendWithPennies-2-21.jpg",
+    "menus": [
+      {
+        "name": "Tacos",
+        "price": 500.00,
+        "url": "https://www.spendwithpennies.com/wp-content/uploads/2021/08/Mahi-Mahi-Tacos-SpendWithPennies-5.jpg"
+      },
+      {
+        "name": "Cheese Sticks",
+        "price": 300.00,
+        "url": "https://www.spendwithpennies.com/wp-content/uploads/2013/10/Cheese-Sticks-SpendWithPennies-2-21.jpg"
+      },
+      {
+        "name": "BBQ wings",
+        "price": 450.00,
+        "url": "https://www.spendwithpennies.com/wp-content/uploads/2022/04/Honey-BBQ-Wings-SpendWithPennies-7.jpg"
+      },
+      {
+        "name": "Roasted Corn",
+        "price": 250.00,
+        "url": "https://www.spendwithpennies.com/wp-content/uploads/2019/06/Grilled-Corn-SpendWithPennies-6.jpg"
+      },
+      {
+        "name": "Mac and Cheese",
+        "price": 320.00,
+        "url": "https://www.spendwithpennies.com/wp-content/uploads/2022/03/Instant-Pot-Mac-and-Cheese-SpendWithPennies-11.jpg"
+      },
+      {
+        "name": "Grilled chicken",
+        "price": 270.00,
+        "url": "https://www.spendwithpennies.com/wp-content/uploads/2020/07/Grilled-Chicken-Thighs-2-SpendWithPennies-4.jpg"
+      },
+      {
+        "name": "Margherita Pizza",
+        "price": 430.00,
+        "url": "https://www.spendwithpennies.com/wp-content/uploads/2018/05/Easy-Margherita-Pizza-Recipe-1-of-1-4.jpg"
+      },
+      {
+        "name": "Cauliflower Steak",
+        "price": 350.00,
+        "url": "https://www.spendwithpennies.com/wp-content/uploads/2019/07/Grilled-Cauliflower-Steaks-7.jpg"
+      },
+      {
+        "name": "Lemon Pasta",
+        "price": 350.00,
+        "url": "https://www.spendwithpennies.com/wp-content/uploads/2021/09/20-Minute-Lemon-Pasta-SpendWithPennies-5.jpg"
+      },
+      {
+        "name": "Hot Dog",
+        "price": 600.00,
+        "url": "https://www.spendwithpennies.com/wp-content/uploads/2019/08/Hot-Dog-Chilli-Sauce1-SpendWithPennies-4.jpg"
+      },
+      {
+        "name": "Cookies",
+        "price": 350.00,
+        "url": "https://www.spendwithpennies.com/wp-content/uploads/2022/04/Chocolate-Chip-Cookies-SpendWithPennies-2.jpg"
+      },
+      {
+        "name": "Lemon Custard",
+        "price": 190.00,
+        "url": "https://www.spendwithpennies.com/wp-content/uploads/2022/05/SWP-Lemon-Custard-20.jpg"
+      },
+      {
+        "name": "Onion Rings",
+        "price": 340.00,
+        "url": "https://www.spendwithpennies.com/wp-content/uploads/2021/11/Crispy-Fried-Onions-SpendWithPennies-6.jpg"
+      },
+      {
+        "name": "Potato Wedges",
+        "price": 250.00,
+        "url": "https://www.spendwithpennies.com/wp-content/uploads/2022/02/Crispy-Baked-Potato-Wedges-SpendWithPennies-9-700x1050.jpg"
+      },
+      {
+        "name": "Baked Beans",
+        "price": 220.00,
+        "url": "https://www.spendwithpennies.com/wp-content/uploads/2022/06/1200-Baked-Beans-6--768x1152.jpg"
+      }
+
+    ]
+  },
+  {
+    "name":"Mains",
+    "image":"https://www.spendwithpennies.com/wp-content/uploads/2022/07/Ground-Beef-Casserole-SpendWithPennies-1-2-500x500.jpg",
+    "menus": []
+  },
+  {
+    "name":"Dessert",
+    "image":"https://www.spendwithpennies.com/wp-content/uploads/2022/03/Peanut-Butter-Cake-SpendWithPennies-12.jpg",
+    "menus": [
+    ]
+  }
+]
